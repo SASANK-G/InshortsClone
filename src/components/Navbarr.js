@@ -8,12 +8,16 @@ const Navbar = ({setCategory}) => {
       <div className='icon'>
         <HamburgerDrawer setCategory={setCategory} />
       </div>
-      <div className='headt'>
+      <img
+        style={{ cursor: "pointer" }}
+        src="https://assets.inshorts.com/website_assets/images/logo_inshorts.png"
+        height="80%"
+        alt="logo"
+      />
+      {/* <div className='headt'>
         Inshorts
-      </div>
-      <div className='nouse'>
-        sasank
-      </div>
+      </div> */}
+      
     </div>
   )
 }
