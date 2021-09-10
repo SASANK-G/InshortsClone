@@ -5,8 +5,8 @@
   display: flex;
   width: 95%;
 
-  box-shadow: 0 8px 10px rgba(117, 121, 139, 0.05),
-    0 15px 40px rgba(117, 121, 139, 0.2);
+  box-shadow: 0 15px 10px rgba(117, 121, 139, 0.05),
+    0 15px 20px rgba(117, 121, 139, 0.2);
   padding: 10px;
   margin: 15px auto;
   border-radius: 10px;
@@ -14,8 +14,8 @@
 }
 
 .newsCard:hover {
-  box-shadow: 0 5px 15px 0 rgba(32, 32, 32, 0.16),
-    0 5px 15px 0 rgba(32, 32, 32, 0.16);
+  box-shadow: 0 5px 15px 0 rgba(63, 63, 63, 0.16),
+    0 5px 15px 0 rgba(56, 56, 56, 0.16);
 
 }
 
