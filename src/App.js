@@ -19,7 +19,7 @@ const [loadmore, setLoadMore] = useState(20);
 const newsApi = async ()=>{
   try {
     
-    const news = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${apikey}&category=${category}&pageSize=${loadmore}`);
+    const news = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.REACT_APP_API_KEY}&category=${category}&pageSize=${loadmore}`);
 setNewsArray(news.data.articles);
 setNewsResults(news.data.totalResults);
 
