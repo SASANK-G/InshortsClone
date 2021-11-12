@@ -1,0 +1,28 @@
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.headt {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.stickyNav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.NewsDiv {
+  margin-top: 4rem;
+}
